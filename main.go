@@ -47,10 +47,6 @@ func main() {
 	wg.Wait()
 }
 
-func test(ind bak.FileIndexes) {
-	ind["test"] = 1
-}
-
 func LoadIndexes(path string) (bak.FileIndexes, error) {
 	f, err := os.OpenFile(path, os.O_RDONLY, 0644)
 	if err != nil {
