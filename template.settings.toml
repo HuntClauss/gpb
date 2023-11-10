@@ -1,0 +1,10 @@
+SftpUser = ""
+SftpPassword = ""
+
+# only files with extensions listed below will be copied
+Extensions = [ ".jpg", ".jpeg", ".png", ".raw", ".dng", ".mp3", ".mp4", ".gif", ".webp", ".ogg", ".flac", ".wav", ".opus" ]
+Folders = [ "" ]
+OutputDir = ""
+
+PhoneAddress = ""
+MartaMode = false
