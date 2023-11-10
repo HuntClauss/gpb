@@ -1,4 +1,4 @@
-module github.com/HuntClauss/phone-backup
+module github.com/HuntClauss/gpb
 
 go 1.21.3
 
