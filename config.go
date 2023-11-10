@@ -12,6 +12,7 @@ type Config struct {
 	MartaMode      bool
 	Folders        []string
 	OutputDir      string
+	IndexFilePath  string
 }
 
 func LoadConfig(path string) Config {

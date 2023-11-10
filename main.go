@@ -18,12 +18,12 @@ func main() {
 	}
 	defer client.Close()
 
-	indexes, err := LoadIndexes("indexes.json")
+	indexes, err := LoadIndexes(config.IndexFilePath)
 	if err != nil {
 		log.Fatalf("cannot load indexes: %v\n", err)
 	}
 	defer func() {
-		if err := SaveIndexes("indexes.json", indexes); err != nil {
+		if err := SaveIndexes(config.IndexFilePath, indexes); err != nil {
 			fmt.Printf("cannot save indexes: %v\n", err)
 		}
 	}()
