@@ -6,3 +6,12 @@
 - [ ] Copy data over wire from phone to computer
   - [ ] Use MTP??
   - [ ] Use ADB??
+
+## TODO
+- [ ] dry run option
+- [ ] simple control options during execution
+  - [ ] verbose level
+  - [ ] progress bar / copied files counter
+- [ ] MartaMode
+- [ ] logs to file
+  - [ ] multiple level of logs
